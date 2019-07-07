@@ -1,0 +1,10 @@
+
+
+<div>
+    <h3>Number of Likes: {{numOfLikes}} </h3>
+    <input type="button" value="Like" (click)= increaseOrDecrease();>
+    <h1>{{list}}</h1>
+    <ul>
+        <li *ngFor="let author of authors">{{author.name}}</li>
+    </ul>
+</div>
