@@ -5,6 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import {AuthorService} from './services/authors.service';
 import {MyHelpoutsTobBarComponent} from './components/topbar.component/topbar.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import {MyHelpoutsTobBarComponent} from './components/topbar.component/topbar.co
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    BrowserAnimationsModule
   ],
   providers: [AuthorService],
   bootstrap: [AppComponent]
