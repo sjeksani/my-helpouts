@@ -7,7 +7,7 @@ import {Component} from '@angular/core';
     styleUrls: ['./topbar.component.css']
 })
 
-export class MyHelpoutsTobBarComponent {
+export class MyHelpoutsTopBarComponent {
     
 constructor() {
     
